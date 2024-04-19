@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Day 2"
+date: 2024-04-19 15:45:00 +0200
+categories: jekyll update
+---
+
+I started following the scratch a pixel [tutorial](https://www.scratchapixel.com/lessons/3d-basic-rendering/volume-rendering-for-developers/ray-marching-algorithm.html) and I seem to have implemented the ray marching correctly. Although it does not 100% look like the result they get. This shouldn't be a problem because to me it looks fine. Here you can see the result:
+
+![Alt text](/images/day2.png)
