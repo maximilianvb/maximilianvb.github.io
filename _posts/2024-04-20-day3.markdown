@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Day 3"
+date: 2024-04-20 15:45:00 +0200
+categories: jekyll update
+---
+
+So now I have introduced a lot of different parameters like density, scattering, absorption etc. You can fine tune these parameters to get some good results.
+
+I ran into some unintended results when dealing with random sampling steps (last 2 images). Here are some results:
+
+![Alt text](/images/day3.png)
+![Alt text](/images/day3_final.png)
+![Alt text](/images/random.png)
+![Alt text](/images/random_2.png)
