@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Problems"
+date: 2024-04-20 15:45:00 +0200
+categories: jekyll update
+---
+
+Implementing all the algorithms my own way (compared to the tutorial) and using SDL has accumulated in a lot of small differences that are now kind of in the way. What should work, doesn't. And it's really hard to debug because the example implementation does it differently.
+
+So today I don't have any more progress, all I have done is troubleshooting. One big reason for the difference in output is the sphere ray intersection calculation. I did a geometric version (because that one I have used in another course) but it seems that it's not good enough for volumetric rendering, the results vary a lot! So the next step is to write the analytic version and hope morale improves.
+
+I must say that debugging is by far the trickiest stuff I have had to deal with in graphics programming...
