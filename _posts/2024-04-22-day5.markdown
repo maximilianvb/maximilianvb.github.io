@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Pixar render speed"
+date: 2024-04-24 11:48:00 +0200
+categories: jekyll update
+---
+
+I did some code refactoring and figured out why I didn't get the same result! I did not understand how the Perlin noise worked, which meant my rendered sphere was not in the correct dimensions for the noise to be applied as I wanted. To be fair, I'm still confused how the Perlin noise works, I think I need to find some other implementation.
+
+This means I'm on the right track again, however, the rendering is very slow, around 20 seconds for one frame. This means that it's not real time. I also assume that it's only working on one CPU thread, so if we could parallelize all the calculations we could have a major speed-up. But at this point in time I think it's better to focus on rendering frames and eventually compile them into a video or something, like Pixar.
+
+If I have time to do optimization to do it real time, I will try to do so.
+But for the moment, here are some results, it's really starting to resemble what I had in mind for when I set out on this project!
+
+![Alt text](/images/something.png)
+![Alt text](/images/something2.png)
