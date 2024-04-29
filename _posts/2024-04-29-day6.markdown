@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Animations"
+date: 2024-04-29 11:48:00 +0200
+categories: jekyll update
+---
+
+I made a square instead of a sphere, although it has some problems. It's more work than one thinks, because to do this volymetric rendering I am not importing a 3d model, I am defining the square/sphere matemathically. Then I compute the ray intersections with the square parameters. Very different computations from the sphere intersection!
+
+I created some animations with the sphere as well.
+
+Square:
+![Alt text](/images/square.png)
+
+Spinning on the y-axis:
+![Alt text](/images/output.gif)
+
+Light spinning on the y-axis:
+![Alt text](/images/output_2.gif)
