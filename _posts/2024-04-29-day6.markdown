@@ -17,3 +17,5 @@ Spinning on the y-axis:
 
 Light spinning on the y-axis:
 ![Alt text](/images/output_2.gif)
+
+The last one looks quite weird because our mind is not used to "smoke" being this static while a light rotates around it. One thing on my TODO list is to make the smoke move somewhat at the same time.
