@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Voxels"
+date: 2024-05-09 11:48:00 +0200
+categories: jekyll update
+---
+
+Ok, so to move forward in this project and to make animations that resembles stuff we need to do voxels instead of spheres. I could re-use my Cube code from the last post so that's good.
+
+I defined a big grid of voxels where every voxel has one density value. Then we ray march and instead of sampling Perlin noise like I did before, I look at the density value for that voxel.
+
+Then all you have to do to make something cool is to edit the density values every frame to simulate something like fluids or smoke. You can do that either procedurally or from sample data. I will try to do some basic procedural animation here in the next post hopefully, I think that's also the final step in this project.
+
+Right now, I set a fixed density value for every voxel. I made an animation that shows the voxel density increase from zero to 0.3. There is a bug where part of the cube dissapears for now but I will fix this hopefully. There are also some white dot artifacts sometimes, but I think that's an issue with SDL, sometimes SDL doesn't render anything at all (very weird).
+
+Anyway here it is:
+
+![Alt text](/images/output_voxel.gif)
