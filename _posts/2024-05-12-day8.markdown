@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Poof"
+date: 2024-05-12 11:48:00 +0200
+categories: jekyll update
+---
+
+Ok so I made some very basic logic on how the particles/voxels spread their densities around. I'm doing some kind of nearest neighbour thing. It gives plausible results if the intended result was like glitter (at least for the pink example down below). For the white on black background it looks more similar to how smoke would spread, the colors do a good job of tricking you into what you want to see. Also the invisible roof in the end of the second animation is just the bounding box.
+
+Obviously this method is my own and has no basis in reality or simulations. Writing believable procedural stuff seems very hard... Anyway, enjoy these renders!
+
+By the way these are rendered frame by frame and it takes quite a long time, so it's not real time.
+
+![Alt text](/images/poof.gif)
+
+![Alt text](/images/smoke.gif)
+
+![Alt text](/images/idissapear.gif)
