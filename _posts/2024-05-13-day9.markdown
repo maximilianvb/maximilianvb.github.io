@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Cool animations"
+date: 2024-05-13 11:48:00 +0200
+categories: jekyll update
+---
+
+I made some cool animations, that's pretty much it. Using some very basic code for the rotations and stuff.
+
+![Alt text](/images/cooleffect.gif)
+
+![Alt text](/images/youspinme.gif)
+
+![Alt text](/images/anotherspin.gif)
